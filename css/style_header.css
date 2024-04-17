@@ -1,13 +1,13 @@
 .main-header {
     min-width: 1200px;
     background-image: url("../images/banner-bg.jpg");
-    background-position: center center;
+    background-position: top center;
     background-color: rgb(0, 0, 0);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    margin-bottom: 64px;
-    padding: 27px 0 146px;
+    margin-bottom: 57px;
+    padding: 24px 0 125px;
     z-index: 0;
     color: white;
 }
@@ -24,6 +24,11 @@
     z-index: -1;
 }
 
+.text-menu {
+    /* padding: 0; */
+    vertical-align: top;
+}
+
 .arrow-button, .arrow-check-button{
     display: none;
 }
@@ -36,7 +41,7 @@
 
 .header-menu__logo {
     display: block;
-    width: 181px;
+    width: 180px;
 }
 
 .header-menu__text {
@@ -59,10 +64,11 @@
 }
 
 .main-center {
-    margin: 127px auto 0;
+    margin: 95px auto 0;
     padding: 0;
     text-align: center;
     text-transform: uppercase;
+    line-height: 75px;
     width: 700px;
 }
 
@@ -78,11 +84,12 @@
     .main-header {
         min-width: 641px;
         background-image: url("../images/banner-bg-tablet.jpg");
-        padding: 40px 0 125px;
+        padding: 45px 0 110px;
+        margin-bottom: 45px;
     }
 
     .main-center {
-        margin-top: 105px;
+        margin-top: 83px;
     }
 
     .header-menu__logo {
@@ -90,12 +97,13 @@
     }
 
     .main-center {
-        width: 100%;
+        width: 90%;
     }
 
 
     .main-center__text {
         font-size: 40px;
+        line-height: 55px;
     }
 
     .arrow-button {
@@ -171,6 +179,8 @@
 
     .main-header {
         min-width: 320px;
+        padding: 31px 0 211px;
+        margin-bottom: 36px;
         background-image: url("../images/banner-mobile.jpg");
     }
 
@@ -179,9 +189,9 @@
     }
         
     .header-menu__logo {
-        width: 87%;
+        width: 82%;
         order: 1;
-        margin-bottom: 45px;
+        margin-bottom: 31px;
     }
 
     .arrow-button {
@@ -197,7 +207,7 @@
         transform: translateX(0);
         transition: .3s;
         align-self: flex-end;
-        margin-bottom: 136px;
+        margin-bottom: 174px;
     }
 
     .arrow-button::before, .arrow-button::after {
@@ -256,9 +266,10 @@
     .main-center {
         width: 100%;
         margin-top: 0;
+        line-height: 35px;
     }
 
     .main-center__text {
-        font-size: 24px;
+        font-size: 26px;
     }
 }

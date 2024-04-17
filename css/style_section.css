@@ -10,7 +10,7 @@
 .section-text::after {
     border: 3px solid #b59f5b;
     width: 66px;
-    margin: 10px auto 28px;
+    margin: 10px auto 25px;
     opacity: 0.4;
     content: "";
     display: block;
@@ -23,7 +23,7 @@
 }
 
 .trend-content {
-    width: calc(25% - 4px);
+    width: calc(25% - 5px);
     background-position: center center;
     background-repeat: no-repeat;
     background-color: black;
@@ -32,7 +32,7 @@
     z-index: 0;
     display: flex;
     min-height: 320px;
-    padding: 21px 16px;
+    padding: 17px 20px;
 }
 
 .trend-content::after {
@@ -51,13 +51,9 @@
     background-color: rgba(0,0,0,0);
     border: 3px solid #b59f5b;
     box-sizing: content-box;
-    padding: 6%;
+    padding: 32px 33px;
     flex-grow: 1;
     align-self: flex-end;
-}
-
-.trend-content:nth-child(n+2) {
-    margin-left: 4px;
 }
 
 .trend-tag {
@@ -65,11 +61,11 @@
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .trend-tag:nth-child(n+2) {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .trend-tag__link {
@@ -82,8 +78,8 @@
 }
 
 .trends-text, .trend-tag {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 .tred-title {
@@ -129,20 +125,28 @@
         font-size: 18px;
     }
 
-    .trend-content {
-        width: calc(50% - 4px);
+    .section-text::after {
+        margin: 10px auto 14px;
     }
+
+    .trend-content {
+        width: calc(50% - 2px);
+        padding: 0px 20px 13px;
+        background-position-y: bottom;
+    }
+
+article.trend-content.trend__nature-iamge {}
 
     .trend-content:nth-child(n+2) {
         margin-left: 0px;  
     }
 
     .trend-content {
-        margin-bottom: 3px;
+        margin-bottom: 5px;
     }
 
     .trend-content:nth-child(2n+2) {
-        margin-left: 4px;
+        /* margin-left: 4px; */
     }
 
     .tred-title {
@@ -155,7 +159,7 @@
     }
 
     .trend-content__text {
-        padding: 8%;
+        padding: 27px 30px;
     }
 }   
 
@@ -186,7 +190,8 @@
     }
 
     .trend-content {
-        margin-bottom: 3px;
+        margin-bottom: 4px;
+        padding: 14px 14px 14px;
     }
 
     .tred-title {
@@ -199,7 +204,16 @@
     }
 
     .trend-content__text {
-        padding: 5%;
+        padding: 17px 21px 25px;
+    }
+
+    .section-text::after {
+        margin: 4px auto 24px;
+    }
+
+    .post__time-author {
+        margin-bottom: 11px;
+        /* line-height: 18px; */
     }
 } 
 
@@ -212,4 +226,5 @@
     .trend-content:nth-child(2n+2) {
         margin-left: 4px;
     }
+
 }

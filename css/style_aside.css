@@ -1,9 +1,17 @@
 .aside-new-posts {
-    width: 25%;
+    width: 23%;
 }
 
-.aside-block:nth-child(n+2) {
-    margin-top: 60px;
+.aside-tag-block {
+    margin-top: 55px;
+}
+
+.aside-topic-block {
+    margin-top: 53px;
+}
+
+.aside-email-block {
+    margin-top: 58px;
 }
 
 .aside-posts {
@@ -17,7 +25,7 @@
 }
 
 .aside-post-content {
-    margin-left: 20px;
+    margin-left: 17px;
     padding: 0;
     line-height: 1;
 }
@@ -32,6 +40,7 @@
     color: #0f0d0e;
     font-weight: 700;
     text-align: center;
+    margin: 0;
 }
 
 .aside-title::after {
@@ -40,7 +49,11 @@
     opacity: 0.4;
     width: 66px;
     display: block;
-    margin: 14px auto 28px;
+    margin: 10px auto 25px;
+}
+
+.aside-title2::after {
+    margin: 10px auto 15px;
 }
 
 .aside-post-image {
@@ -113,8 +126,8 @@
 
 .aside-form-input__email {
     width: 100%;
-    height: 48px;
-    padding: 18px;
+    height: 45px;
+    padding: 16px;
     background-color: #f4f7f6;
     border: 0;
     opacity: 0.5;
@@ -122,7 +135,7 @@
 
 .aside-button-form__email {
     width: 100%;
-    height: 48px;
+    height: 50px;
     cursor: pointer;
     text-align: center;
     text-transform: uppercase;
@@ -131,7 +144,7 @@
     font-weight: 700;
     font-size: 14px;
     color: white;
-    margin-top: 16px;
+    margin-top: 18px;
 }
 
 .aside-form-input__email:focus {
@@ -152,16 +165,16 @@
 
 .aside-tags {
     display: flex;
+    margin: 0;
     flex-wrap: wrap;
     padding: 0;
-    
 }
 
 .aside-tag {
     border: 3px solid #eeeeee;
-    padding: 8px 13px;
+    padding: 5px 13px;
     display: inline-block;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -174,6 +187,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    margin: 0;
 }
 
 .aside-topic {
@@ -193,7 +207,7 @@
     color: #000000;
     font-size: 14px;
     font-weight: 700;
-    line-height: 47px;
+    line-height: 45px;
 }
 
 .aside-topic__text:hover {
@@ -212,7 +226,7 @@
 @media (min-width: 641px) and (max-width: 1200px) {
     
     .aside-new-posts {
-        width: 40%;
+        width: 39%;
     }
 
     .aside-form-input {
@@ -227,11 +241,72 @@
     .aside-tag {
         font-size: 12px;    
     }
+
+    .aside-title {
+        line-height: 10px;
+    }
+
+    .aside-title::after {
+        margin: 15px auto 26px;
+    }
+
+    .aside-email-block {
+        margin-top: 57px;
+    }
+
+    .aside-topic-block {
+        margin-top: 56px;
+    }
+
+    .aside-tag-block {
+        margin-top: 59px;
+    }
+
+    .aside-search-form {
+        margin-top: 65px;
+    }
+
+    .aside-title2::after {
+        margin: 14px auto 14px;
+    }
 }
 
 @media (max-width: 641px) {
 
     .aside-new-posts {
         width: 100%;
+        margin-top: 60px;
+    }
+
+    .aside-title {
+        font-size: 16px;
+    }
+
+    .aside-title::after {
+        margin: 8px auto 25px;
+    }
+
+    .aside-search-form {
+        margin-top: 63px;
+    }
+
+    .aside-email-block {
+        margin-top: 40px;
+    }
+
+    .aside-tag-block {
+        margin-top: 37px;
+    }
+
+    .aside-topic-block {
+        margin-top: 31px;
+    }
+
+    .aside-topic__text {
+        line-height: 46px;
+    }
+
+    .aside-title2 {
+        margin: 0px auto -10px;
     }
 }

@@ -23,11 +23,11 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0px 16px;
 }
 
 .container-main-post {
-    margin-top: 64px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -45,6 +45,10 @@ body {
     
     .container {
         padding: 0 35px;
+    }
+
+    .container-main-post {
+        margin-top: 46px;
     }
 }
 
