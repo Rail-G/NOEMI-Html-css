@@ -205,6 +205,12 @@ body {
     margin: 0px;
 }
 
+.trends-main-text {
+    padding: 0 0 5px 0;
+    margin: 0px;
+    line-height: 15px;
+}
+
 .tred-title {
     margin: 0;
     font-size: 20px;
@@ -240,6 +246,7 @@ body {
 
 .main-posts {
     width: 67%;
+    line-height: 20px;
 }
 
 .post {
@@ -247,7 +254,7 @@ body {
 }
 
 .post:nth-child(n+2) {
-    margin-top: 60px;
+    margin-top: 61px;
 }
 
 .post-image {
@@ -305,21 +312,23 @@ body {
 
 .post-text {
     font-size: 15px;
-    line-height: 21px;
+    line-height: 22px;
     color: #0f0d0e;
+    margin: 0 0 8px 0;
 }
 
 .post__time-author {
-    margin-bottom: 45px;
+    margin-bottom: 41px;
+    line-height: 22px;
 }
 
 .shop-section {
-    margin-top: 60px;
+    margin-top: 55px;
 }
 
 .shop-items {
     display: flex;
-    margin-bottom: 64px;
+    margin-bottom: 63px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -334,14 +343,14 @@ body {
 .shop-info {
     border: 3px solid #b59f5b;
     text-align: left;
-    padding: 50px 22px 27px;
+    padding: 56px 22px 27px;
     position: relative;
     flex-grow: 2;
 }
 
 .shop-info__title {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 23px;
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 0;
@@ -356,8 +365,8 @@ body {
 
 .shop-info__text {
     font-size: 15px;
-    line-height: 22px;
-    margin-top: 5px;
+    line-height: 23px;
+    margin-top: 0px;
     margin-bottom: 0;
 }
 
@@ -422,7 +431,7 @@ body {
 }
 
 .aside-topic-block {
-    margin-top: 53px;
+    margin-top: 50px;
 }
 
 .aside-email-block {
@@ -430,7 +439,7 @@ body {
 }
 
 .aside-posts {
-    display: flex;    
+    display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
 }
@@ -468,7 +477,7 @@ body {
 }
 
 .aside-title2::after {
-    margin: 10px auto 15px;
+    margin: 10px auto 10px;
 }
 
 .aside-post-image {
@@ -570,8 +579,9 @@ body {
 .aside-post__link {
     text-decoration: none;
     color: black;
-    margin-right: 5px;
-    margin-bottom: 6px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    /* line-height: 12px; */
 }
 
 .aside-post__link:hover {
@@ -583,6 +593,7 @@ body {
     margin: 0;
     flex-wrap: wrap;
     padding: 0;
+    line-height: 13px;
 }
 
 .aside-tag {
@@ -603,6 +614,7 @@ body {
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
+    line-height: 2.87;
 }
 
 .aside-topic {
@@ -622,7 +634,7 @@ body {
     color: #000000;
     font-size: 14px;
     font-weight: 700;
-    line-height: 45px;
+    /* line-height: 45px; */
 }
 
 .aside-topic__text:hover {
@@ -639,7 +651,7 @@ body {
 }
 
 .footer-block {
-    margin-bottom: 52px;
+    margin-bottom: 53px;
 }
 
 .footer-social {
@@ -655,7 +667,7 @@ body {
 
 .footer-adress {
     display: flex;
-    padding: 15px 0;
+    padding: 14px 0;
     justify-content: center;
     background-color: #f4f7f6;
 }
@@ -686,6 +698,7 @@ body {
 
 .copyright {
     text-align: center;
+    padding-left: 11px;
 }
 
 .copyright-text {
@@ -880,6 +893,11 @@ body {
         line-height: 55px;
     }
 
+    .trends-main-text {
+        line-height: 22px;
+        padding-bottom: 0px;
+    }
+
     .arrow-button {
         position: relative;
         z-index: 1;
@@ -904,6 +922,10 @@ body {
         border-radius: 10px;
         background: #fff;
       }
+
+    .copyright {
+        padding-left: 10px;
+    }
 
     .arrow-button::before {
         top: 0;
@@ -956,12 +978,12 @@ body {
     }
 
     .section-text::after {
-        margin: 10px auto 14px;
+        margin: 5px auto 20px;
     }
 
     .trend-content {
         width: calc(50% - 2px);
-        padding: 0px 20px 13px;
+        padding: 0px 20px 15px;
         background-position-y: bottom;
     }
 
@@ -976,7 +998,7 @@ body {
 
     .tred-title {
         font-size: 17px;
-        line-height: 22px;
+        line-height: 23px;
     }
 
     .trend-tag {
@@ -984,16 +1006,18 @@ body {
     }
 
     .trend-content__text {
-        padding: 27px 30px;
+        padding: 25px 30px;
     }
 
     .post {
         flex-wrap: wrap;
+        /* line-height: 18px; */
     }
 
     .main-posts {
         width: 56%;
         margin-right: 4%;
+        /* line-height: 20px; */
     }
     
     .post-image {
@@ -1003,8 +1027,8 @@ body {
 
     .post-title {
         font-size: 17px;
-        line-height: 21px;
-        margin-top: 10px;
+        line-height: 22px;
+        margin-top: 5px;
     }
 
     .post-content__text {
@@ -1015,10 +1039,11 @@ body {
         font-size: 14px;
         /* margin-bottom: 20px; */
         /* margin: 0px; */
+        /* letter-spacing: 0.6px; */
     }
 
     .post:nth-child(n+2) {
-        margin-top: 0px;
+        margin-top: 5px;
     }
 
     .post:nth-child(n+2):before {
@@ -1031,11 +1056,11 @@ body {
 
     .shop-info__title {
         font-size: 17px;
-        line-height: 22px;
+        line-height: 32px;
     }
 
     .shop-item {
-        width: 48%;
+        width: 49%;
     }
 
     .shop-item:nth-child(n+1) {
@@ -1047,7 +1072,7 @@ body {
     }
 
     .shop-info {
-        padding: 50px 20px 25px;
+        padding: 43px 25px 20px 21px;
     }
 
     .shop-image {
@@ -1059,11 +1084,12 @@ body {
     }
 
     .shop-items {
-        margin-bottom: 51px;
+        margin-bottom: 53px;
     }
 
     .post__time-author {
-        margin-bottom: 31px;
+        line-height: 28px;
+        margin-bottom: 24px;
     }
 
     .aside-new-posts {
@@ -1084,31 +1110,32 @@ body {
     }
 
     .aside-title {
-        line-height: 10px;
+        line-height: 11px;
+        font-size: 14px;
     }
 
     .aside-title::after {
-        margin: 15px auto 26px;
+        margin: 15px auto 27px;
     }
 
     .aside-email-block {
-        margin-top: 57px;
+        margin-top: 58px;
     }
 
     .aside-topic-block {
-        margin-top: 56px;
+        margin-top: 57px;
     }
 
     .aside-tag-block {
-        margin-top: 59px;
+        margin-top: 57px;
     }
 
     .aside-search-form {
-        margin-top: 65px;
+        margin-top: 62px;
     }
 
     .aside-title2::after {
-        margin: 14px auto 14px;
+        margin: 12px auto 12px;
     }
 
     .footer-block {
@@ -1135,7 +1162,7 @@ body {
 
     .container-main-post {
         flex-wrap: wrap;
-        margin-top: 40px;
+        margin-top: 36px;
     }
 
     .main-header {
@@ -1292,8 +1319,8 @@ body {
 
     .post-title {
         font-size: 16px;
-        line-height: 20px;
-        margin: 9px auto 12px;
+        line-height: 19px;
+        margin: 0px auto 13px;
     }
 
     .post-content__text {
@@ -1303,6 +1330,7 @@ body {
     .post-text {
         font-size: 14px;
         margin: 0;
+        line-height: 20px;
     }
 
     .post:nth-child(n+2) {
@@ -1320,7 +1348,8 @@ body {
 
     .shop-info__title {
         font-size: 17px;
-        line-height: 22px;
+        line-height: 11px;
+        margin-bottom: 6px;
     }
 
     .shop-item {
@@ -1328,28 +1357,30 @@ body {
     }
 
     .shop-item:nth-child(n+2) {
-        margin-top: 21px;
+        margin-top: 26px;
     }
 
     .shop-section {
-        margin-top: 35px;
+        margin-top: 38px;
+        line-height: 30px;
     }
 
     .shop-info {
-        padding: 51px 16px 26px;
+        padding: 54px 18px 28px;
     }
 
     .shop-image {
-        width: 89%;
+        width: 88%;
+        margin-bottom: -39px;
     }
 
     .shop-items {
-        margin-bottom: 36px;
+        margin-bottom: 41px;
     }
 
     .aside-new-posts {
         width: 100%;
-        margin-top: 60px;
+        margin-top: 62px;
     }
 
     .aside-title {
@@ -1357,15 +1388,15 @@ body {
     }
 
     .aside-title::after {
-        margin: 8px auto 25px;
+        margin: 10px auto 26px;
     }
 
     .aside-search-form {
-        margin-top: 63px;
+        margin-top: 61px;
     }
 
     .aside-email-block {
-        margin-top: 40px;
+        margin-top: 38px;
     }
 
     .aside-tag-block {
@@ -1373,7 +1404,7 @@ body {
     }
 
     .aside-topic-block {
-        margin-top: 31px;
+        margin-top: 33px;
     }
 
     .aside-topic__text {
@@ -1385,7 +1416,7 @@ body {
     }
 
     .footer-block {
-        margin-bottom: 33px;
+        margin-bottom: 32px;
     }
 
     .popup_close-picture {
@@ -1396,6 +1427,34 @@ body {
 
     .popup-content {
         width: 90vw;
+    }
+
+    .trends-main-text {
+        line-height: 25px;
+    }
+
+    .container {
+        padding: 0 14px;
+    }
+
+    .aside-post-content {
+        line-height: 1.05;
+    }
+
+    .aside-tag {
+        padding: 5px 12px;
+    }
+
+    .aside-title2::after {
+        margin: 10px auto 20px;
+    }
+
+    .aside-topics {
+        line-height: 2.8px;
+    }
+
+    .shop-item2:nth-child(n+3) {
+        margin-top: 17px;
     }
 }
 
