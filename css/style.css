@@ -589,6 +589,14 @@ body {
     color: #b59f5b;
 }
 
+.pop-rad2 {
+    margin-left: 11px;
+}
+
+.popup-radio {
+    margin-top: 3px;
+}
+
 .aside-tags {
     display: flex;
     margin: 0;
@@ -720,11 +728,11 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-
     background-color: rgba(0,0,0,0.5);
     display: none;
     justify-content: center;
     align-items: center;
+    padding-top: 75px;
 }
 
 .checked-popup:checked + .popup {
@@ -739,6 +747,7 @@ body {
     width: 390px;
     background-color: #ffffff;
     position: relative;
+    height: 589px;
 }
 
 .popup_close-picture {
@@ -746,7 +755,7 @@ body {
     height: 18px;
     position: absolute;
     top: -25px;
-    right: 0;
+    right: -2px;
     cursor: pointer;
 }
 
@@ -756,37 +765,38 @@ body {
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
-    margin: 54px 0 0;
+    margin: 46px auto 0;
 }
 
 .popup-text::after {
-    border: 3px solid #b59f5b;
-    width: 66px;
-    margin: 10px auto 28px;
+    border: 2px solid #b59f5b;
+    width: 64px;
+    margin: 7px auto 25px;
     opacity: 0.4;
     content: "";
     display: block;
 }
 
 .main-buttons {
-    padding: 30px;
+    padding: 0 28px 30px 31px;
 }
 
-.popup-main {
-    margin: 30px 0;
+.popup-main:nth-child(n+2) {
+    margin: 29px 0 0px;
 }
 
 .popup-question-text {
     font-size: 13px;
     font-weight: 400;
+    margin: 0px 0 0px;
 }
 
 .popup-select {
     width: 100%;
     height: 50px;
     opacity: 0.5;
-    font-size: 13px;
-    padding-left: 19px;
+    font-size: 14px;
+    padding-left: 17px;
     background-color: #f4f7f6;
     position: relative;
     appearance: none;
@@ -795,6 +805,7 @@ body {
     background-repeat: no-repeat;
     background-position: right 14px center;
     background-size: 8px 17px;
+    margin-top: 7px;
 }
 
 .popup-select:hover {
@@ -813,7 +824,7 @@ body {
 .popup-radio__text::before {
     content: "";
     display: inline-block;
-    margin-right: 3px;
+    margin-left: 1px;
     vertical-align: middle;
     width: 16px;
     height: 16px;
@@ -834,12 +845,14 @@ body {
 .popup-textarea {
     width: 100%;
     height: 131px;
+    max-height: 131px;
     background-color: #f4f7f6;
     padding: 20px;
     opacity: 0.541;
     font-size: 13px;
     font-weight: 400;
     font-family: "Open Sans";
+    margin-top: 5px;
 }
 
 .popup-submit-button {
@@ -854,6 +867,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+    margin-top: 25px;
 }
 
 .popup-submit-button:hover {
@@ -864,6 +878,35 @@ body {
 
     .container {
         padding: 0 35px;
+    }
+
+    .popup {
+        padding-top: 78px;
+    }
+
+    .popup-content {
+        height: 596px
+    }
+
+    .popup-text{
+        font-size: 18px;
+    }
+
+    .popup-radio{
+        margin-top: 7px;
+    }
+
+    .popup-radio__text::before {
+        width: 26px;
+        height: 26px;
+    }
+
+    .pop-rad2{
+        margin-left: 28px;
+    }
+
+    .main-buttons {
+        padding: 0 30px 30px 28px;
     }
 
     .container-main-post {
@@ -1180,6 +1223,41 @@ body {
         margin-top: 36px;
     }
 
+    .popup {
+        padding-top: 19px;
+    }
+
+    .popup-content {
+        width: 331px;
+        height: 546px;
+    }
+
+    .popup-text{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .popup-radio{
+        margin-top: 7px;
+    }
+
+    .popup-radio__text::before {
+        width: 26px;
+        height: 26px;
+    }
+
+    .pop-rad2{
+        margin-left: 28px;
+    }
+
+    .main-buttons {
+        padding: 0 28px 30px 24px;
+    }
+
+    .container-main-post {
+        margin-top: 46px;
+    }
+
     .main-header {
         min-width: 320px;
         padding: 31px 0 211px;
@@ -1441,7 +1519,6 @@ body {
     }
 
     .popup-content {
-        width: 90vw;
     }
 
     .trends-main-text {
@@ -1483,17 +1560,74 @@ body {
         margin-left: 4px;
     }
 
+    .popup-content {
+        width: 546px;
+        height: 300px;
+    }
+
     .trend-content__text {
         padding: 2vw 3.1vw;
     }
 
     .tred-title {
-        font-size: 4.65vw;
-        line-height: 5vw;
+        font-size: 2.65vw;
+        line-height: 3vw;
     }
 
     .trend-tag {
-        font-size: 3.27vw;
+        font-size: 2.27vw;
+    }
+
+    .popup-text {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+
+    .popup-text::after {
+        margin: 0px auto 13px;
+    }
+
+    .popup-question-text {
+        font-size: 10px;
+    }
+
+    .popup-select {
+        height: 25px;
+        font-size: 10px;
+        background-size: 8px 13px;
+    }
+
+    .popup-main:nth-child(n+2){
+        margin: 15px 0 0;
+    }
+
+    .popup-radio__text::before{
+        width: 13px;
+        height: 13px;
+    }
+
+    .popup-radio__text{
+        font-size: 11px;
+    }
+
+    .popup-textarea {
+        height: 60px;
+        font-size: 11px;
+        padding: 10px 20px;
+    }
+
+    .popup-submit-button{
+        height: 24px;
+        margin-top: 10px;
+        font-size:  11px;
+    }
+
+    .popup_close-picture {
+        width: 13px;
+        height: 13px;
+        top: -20px;
     }
 
 }
+
+
