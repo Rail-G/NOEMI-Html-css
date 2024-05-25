@@ -580,8 +580,6 @@ body {
 .aside-post__link {
     text-decoration: none;
     color: black;
-    margin-right: 7px;
-    margin-bottom: 7px;
     /* line-height: 12px; */
 }
 
@@ -612,6 +610,8 @@ body {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-right: 7px;
+    margin-bottom: 7px;    
 }
 
 .aside-tag:hover {
@@ -1516,9 +1516,6 @@ body {
         width: 30px;
         height: 30px;
         top: -40px;
-    }
-
-    .popup-content {
     }
 
     .trends-main-text {
