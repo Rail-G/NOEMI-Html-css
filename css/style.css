@@ -874,6 +874,10 @@ body {
     background-color: #323232;
 }
 
+._hidden {
+    display: none;
+}
+
 @media (min-width: 641px) and (max-width: 1200px) {
 
     .container {
@@ -1626,5 +1630,3 @@ body {
     }
 
 }
-
-
